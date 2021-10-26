@@ -35,7 +35,7 @@ const getJSON = function (url, errorMsg = 'Something went wrong') {
   });
 };
 
-/*
+
 ///////////////////////////////////////
 // Our First AJAX Call: XMLHttpRequest
 
@@ -75,7 +75,7 @@ getCountryData('germany');
 ///////////////////////////////////////
 // Welcome to Callback Hell
 
-/*
+
 const getCountryAndNeighbour = function (country) {
   // AJAX call country 1
   const request = new XMLHttpRequest();
@@ -123,6 +123,7 @@ setTimeout(() => {
     }, 1000);
   }, 1000);
 }, 1000);
+
 
 
 ///////////////////////////////////////
